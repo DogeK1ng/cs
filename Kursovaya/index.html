@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+	<title>Web design studio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="all_css\index.css">
+	<link rel="stylesheet" type="text/css" href="all_css\media.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="panel" id="panel">
+		<span>
+			<button class="Close_Button" id="Close_Button" onclick="panelclose()">
+				<svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-caret-left-square-fill" viewBox="0 0 16 16">
+				 <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12z"/>
+				</svg>
+			</button>
+		</span>		
+		<ul class="header_nav-list">
+				
+        		<li>
+        			<a href="index.html">
+        				<span class="header_nav-list_text_logo">Web design studio</span>
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#container">
+        				<span class="header_nav-list_text">О нас</span>
+        				
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#site">
+        				<span class="header_nav-list_text">Преимущества</span>
+        				
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#auto_tion">
+        				<span class="header_nav-list_text">Регистрация</span>
+        				
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#contact">
+        				
+        				<span class="header_nav-list_text">Контакты</span>
+        			</a>
+        		</li>
+        		<li>
+        			<a href="authorization.html">
+        				
+        				<span class="header_nav-list_text">Авторизации</span>
+        			</a>
+        		</li>
+        		
+        	</ul>
+	</div>
+
+	<button class="Nav_Button" id="Nav_Button" onclick="panelshow()">
+		<div class="nav">
+			<svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+			  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/>
+			</svg>
+		</div>
+	</button>
+
+	<div class="header"> 
+        	<ul class="header_nav-list flex">
+        		<li>
+        			<a href="index.html">
+        				<span class="header_nav-list_text_logo">Web design studio</span>
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#container">
+        				<span class="header_nav-list_text">О нас</span>
+        				<span class="header_nav-list_img"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						  <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+						</svg></span>
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#site">
+        				<span class="header_nav-list_text">Преимущества</span>
+        				<span class="header_nav-list_img"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						  <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+						</svg></span>
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#auto_tion">
+        				<span class="header_nav-list_text">Регистрация</span>
+        				<span class="header_nav-list_img"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						  <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+						</svg></span>
+        			</a>
+        		</li>
+        		<li>
+        			<a href="index.html#contact">
+        				<span class="header_nav-list_img-right"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						  <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+						</svg></span>
+        				<span class="header_nav-list_text">Контакты</span>
+        			</a>
+        		</li>
+        		<li>
+        			<a href="authorization.html">
+        				<span class="header_nav-list_img-right"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							  <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+							  <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+							  <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+							</svg></span>
+        				<span class="header_nav-list_text">Авторизации</span>
+        			</a>
+        		</li>
+        		
+        		
+        	</ul>
+    </div>
+
+    <div class="header_conteaier" >
+    	
+    	<img src="image\header.jpg">
+	      <div class="slogan"  > 
+
+	      		<span class="slogan_header">
+			      	Наша команда уже готова, <br> сделать для Вас уникальный веб-сайт.
+			      	<br>
+
+			      	<br> А вы готовы заявить о себе? 
+			     	 </span> 
+			      <br>
+			      <br>
+			      	<br><a style="text-decoration: none;" href="index.html#auto_tion"><span class="regist_header">
+			     	оставить заявку
+			      	</span></a>
+	  		</div>  	    	
+    </div>
+
+    <a href="" name="container"></a>
+    <div class="container_text">
+    <h2>Наши работы</h2>
+    </div>
+      
+    <div class="container">
+    	<div class="container_card flex">
+	        	<div class="card">
+					  <img src="image/img1.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">PALETTO</h5>
+					    <p class="card-text">Paletto - Cosmetic Store Elementor №70583</p>
+					    
+					  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					  <img src="image/img2.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">BLACK FRIDAY SALE</h5>
+					    <p class="card-text">Monstroid2 универсальный <br>№62267</p>
+					    
+					  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					  <img src="image/img3.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">APPARELIX</h5>
+					    <p class="card-text">Apparelix - Wedding Fashion Shop №118083</p>
+					    
+					  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					  <img src="image/img4.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">SUSHIYAMA</h5>
+					    <p class="card-text">Sushiyama | Asian and Sushi Restaurant №121052</p>
+					   
+					  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					  <img src="image/img5.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">SHOPPE</h5>
+					    <p class="card-text">Shopee - Premium Marketplace Responsive №74424</p>
+					    
+					  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					  <img src="image/img6.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">ALMA</h5>
+					    <p class="card-text">Alma - Minimalist <br>№110517</p>
+					   
+					  </div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					  <img src="image/img7.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">DIGO</h5>
+					    <p class="card-text">Digo - SEO and Digital Marketing Agency Elementor №136552</p>
+					    
+					  </div>
+				</div>
+					<div class="card" style="width: 18rem;">
+					  <img src="image/img8.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title">KRUTA</h5>
+					    <p class="card-text">Kruta - Portfolio <br>№136553</p>
+					    
+					  </div>
+				</div>
+		</div>
+    </div>
+
+    <div class="company">
+		<div class="text">
+			  	<h2>О нас</h2>
+			  	<p>Нарисовать дизайн сайта или приложения — мало. Куда важнее запустить продукт, чтобы он приносил деньги клиентам. <br>Мы превращаем дизайн в работающий продукт: берем на себя разработку продукта от первого интервью до интеграции с платежными системами и CRM.​</p>
+		</div>
+	  	<div class="text flex">
+	  		<div class="text_img">
+	  			
+		  	<p>Мы уверены: проект может получиться только при хороших отношениях и взаимопонимании проектной команды и клиента. Мы больше верим в гибкость подхода, чем в ТЗ, высеченные в камне.
+
+			Дизайнеры студии — универсалы. У нас нет жесткого разделения на проектировщиков, вебдизайнеров и резчиков икон. Каждый дизайнер проводит анализ, общается с клиентами, проектирует и реализовывает проект.
+			Да, это затрудняет поиск специалистов.
+
+			Наш самый главный принцип — Прозрачность. Это значит, что мы показываем все, над чем работаем, ежедневно. И чаще.</p>
+	  		</div>
+	  		<div class="image">
+	  			<img src="https://www.templatemonster.com/assets/images/home-description-1.png?v=1">
+	  		</div>	
+	  	</div>
+	</div>
+
+	<div class="coment flex">
+		  	<div class="card" style="width: 18rem;">
+				  <img src="http://netgon.ru/stock/caramelka_html/img/content/avatars/thumb-1.jpg" class="card-img-top coment_img" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Вероника</h5>
+				    <p class="card-text">Благодарю команду Web Desing Studio за реализацию проекта по разработке сайта.</p>
+						   
+				  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				  <img src="http://netgon.ru/stock/caramelka_html/img/content/avatars/thumb-2.jpg" class="card-img-top coment_img" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Анжелика</h5>
+				    <p class="card-text">Была участником вебинара  «Эффективный сайт для бизнеса в 2021 году». Отлично структурированная информация, полезные советы от ведущего. </p>
+				    
+				  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				  <img src="http://netgon.ru/stock/caramelka_html/img/content/avatars/thumb-3.jpg" class="card-img-top coment_img" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Андрия</h5>
+				    <p class="card-text">Всё отлично сделали и провели инструктаж по работе с сайтом, спасибо!</p>
+				   
+				  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				  <img src="http://netgon.ru/stock/caramelka_html/img/content/avatars/thumb-4.jpg" class="card-img-top coment_img" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Элизабет</h5>
+				    <p class="card-text">Хорошая команда и быстрая оперативная работа.</p>
+				   
+				  </div>
+			</div>
+	</div>
+
+	<a href="" name="site"></a>
+	<div class="site">
+	  	<h2>Преимущества</h2>
+	  	<div class="pre_ta flex">
+		  	<div class="card_pre" >
+		  		<b><span>ПРОДАЖИ</span></b>
+		  		<br><span>Абсолютно всё: копирайтинг, структура сайта, дизайн и т.д. разрабатываются таким образом, чтобы прогреть потенциального клиента, чтобы после подачи заявки вы, максимально быстро, дорого и легко смогли ему продать. Хотя скорее всего и продавать не придётся, купят сами.</span>
+		  	</div>
+		  	<div class="card_pre" >
+		  		<b><span>УНИКАЛЬНЫЙ ДИЗАЙН</span></b>
+		  		<br><span>Никаких шаблонов и повторов, индивидуальный и качественный дизайн для каждого заказчика. Придерживаясь главным целям веб- дизайна- 1)Правило 3-х секунд; 2)Привлечь внимание целевой аудитории; 3)Максимально вовлечь в прочтение текста.</span>
+		  	</div>
+		  	<div class="card_pre" >
+		  		<b><span>КОПИРАЙТИНГ</span></b>
+		  		<br><span>Составление прогревающего, вовлекающего и продающего текста используя все современные методики копирайтинга.</span>
+		  	</div>
+		  	<div class="card_pre" >
+		  		<b><span>КОМПЛЕКСНЫЙ ПОДХОД</span></b>
+		  		<br> <span>То есть, не только веб- дизайн, а комплексная разработка сайта, от структуры и дизайна, до SEO и подключение метрики и бесплатное ведение в течение 3 месяцев.</span>
+		  	</div>
+		  	<div class="card_pre" >
+		  		<b><span>СКОРОСТЬ</span></b>
+		  		<br><span>Быстрые сроки, от 3 до 14 дней. В среднем разработка Landing Page занимает 5 дней.</span>
+		  	</div>
+		  	<div class="card_pre" >
+		  		<b><span>КОРРЕКЦИЯ</span></b>
+		  		<br><span>Как только сайт будет готов, на этом наша работа не заканчивается, мы ведем сайт в течение 3 месяцев, после запуска рекламы. С помощью метрики, точных цифр, мы корректируем, переставляем, меняем, убираем до достижения максимальной конверсии.</span>
+		  	</div>
+	  	</div>
+	</div>
+
+	  <a href=" " name="auto_tion"></a>
+	   <div class="auto_tion">
+	   	
+        	<h2 class="auto_tion-top">РЕГИСТРАЦИЯ</h2>
+        	<div class="auto_tion-input">
+        		
+        			<form name="test" method="post" action="check.php">
+						  <p><b>Введите адресс электронной почты:</b><br>
+						   <input type="text" size="40" name="adres">
+						  </p>
+						  <p><b>Введите логин:</b><br>
+						   <input type="text" size="40" name="login">
+						  </p>
+						  <p><b>Придумайте пароль:</b><br>
+						   <input type="text" size="40" name="password">
+						  </p>
+						   <p><input type="submit" class="registr" value="Зарегистрироваться"></p>
+					 </form>
+        		
+        	</div>
+        </div>
+        
+        <a href="" name="contact"></a>
+	   <div class="contact" >
+		  	<div class="contact_header">
+		  		<span><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-columns-gap" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				  <path fill-rule="evenodd" d="M6 1H1v3h5V1zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12h-5v3h5v-3zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8H1v7h5V8zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6h-5v7h5V1zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
+				</svg></span>
+				<span>Web design studio</span>
+				<p>Зарегистрируйтесь, чтобы получать информацию об акциях и скидках</p>
+				<br><p>Наши контакты</p>
+				<br><p>Телефон: 8 705 72 70 122</p>
+				<br><p>Почта:Web_design_studio@mail.ru</p>
+		  	</div>
+	  </div>
+	
+	<script  type="text/javascript" src="nav.js"></script>
+
+</body>
+</html>
