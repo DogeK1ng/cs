@@ -1,0 +1,500 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+body{
+	background-color:#5F9EA0;
+	width: 100%;
+}
+
+.flex{
+	display: flex;
+}
+.panel {
+	width: 220px;
+	opacity: 0;
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	height: 500px;
+	padding: 30px 30px 20px;
+	background-color: #fff;
+	z-index: 0;
+	background-color:  #008080;
+		border-radius: 10px;
+	     border: 3px solid  #fff ; 
+
+}
+.panel  li{
+	margin-top: 15px;
+	list-style-type: none;
+ 
+}
+.panel  li a:hover{
+	color :#00CED1;
+}
+.panel  a {
+	
+	text-decoration: none;
+	width: 48.36px;
+	height: 33px;
+	color: black;
+}
+.show{
+	opacity: 1;
+	display: block;
+	z-index: 9999;
+}
+.Nav_Button{
+	width: 25px;
+	height: 25px;
+	opacity: 0;
+	z-index: 999;
+	display: none;
+}
+.header_nav-list span{
+	width: 30px;
+	height: 30px;
+}
+.Close_Button{
+	position: fixed;
+	
+	margin-left: 145px;
+	bottom: 95%;
+	top:5%;
+	z-index: 99;
+	width: 30px;
+	height: 30px;
+	color: #008080;
+}
+.header{
+	width: 100%;
+	height: 75px;
+	padding: 0px 20px;
+	background-color: #5F9EA0 ;
+	
+}
+
+.header li{
+	margin-top: 15px;
+	list-style-type: none;
+ 
+}
+.header li a:hover{
+	color :#00CED1;
+}
+.header a {
+	
+	text-decoration: none;
+	width: 48.36px;
+	height: 33px;
+	color: black;
+}
+.header_nav-list_text{
+	font-family: 'New Tegomin', serif;
+	font-size: 25px; 
+
+}
+.header_nav-list_text_logo {
+	font-family: 'New Tegomin', serif;
+	font-size: 25px; 
+
+}
+.header_conteaier{
+width: 100%;
+	height: 700px;
+
+	background-size: 100% 100%;	
+	
+	z-index: 0;
+}
+.header_conteaier img {
+	width: 100%;
+	height: 700px;
+
+	background-size: 100% 100%;	
+
+	border-top: 6px solid #008080;
+	border-bottom:  6px solid #008080;
+	z-index: 0;
+}
+.slogan{
+	margin: -555px 0 0 90px;
+	z-index: -10;
+
+
+}
+.slogan_header {
+	font-family: 'Yanone Kaffeesatz', serif;
+	font-size: 35px; 
+
+
+}
+.regist_header {
+	font-family: 'Yanone Kaffeesatz', serif;
+	font-size: 25px; 
+	
+	width: 48.36px;
+	height: 33px;
+	color: black;
+	padding: 10px 15px 10px 15px;
+	background-color: #5F9EA0 ;
+	border-radius: 25px;
+}
+.regist_header:hover {
+	background-color: #4169E1 ;
+	opacity: 0.6;
+	color :#00CED1;
+}
+.container {
+	width: 100%;
+	flex-wrap: wrap;
+	background-color: #E0FFFF;
+		border-bottom:  6px solid #008080;
+		padding: 30px 30px 30px 30px;
+		
+}
+.container_card{
+	flex-wrap: wrap;
+
+
+}
+.container_text {
+	background-color: #E0FFFF;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+.container_text h2 {
+	padding-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'Yanone Kaffeesatz', serif;
+	font-size: 55px; 
+}
+.card {
+	width: 286px;
+	height: 300px;
+	border: solid;
+	border-width: 1px;
+	border-color: grey;
+	background-color: #F0F8FF;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	
+	
+}
+.card-img-top {
+	width: 284px;
+	height: 183px;
+}
+.card-title {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px; 
+	text-align: center;
+	margin-top: 20px;
+}
+.card-text {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px; 
+	text-align: center;
+	margin: 15px 15px 15px 15px;
+}
+.btn-primary{
+	margin-top: 30px;
+	margin-left: 60px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+
+}
+.bi-cart4 {
+	color: #008080;
+}
+.btn_text {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: #008080;
+	
+}
+.btn_text:hover, .bi-cart4:hover{
+	color: #4682B4;
+}
+.company {
+	background-color: #5F9EA0;
+	padding: 50px 70px 50px 50px;
+		border-bottom:  6px solid #008080;
+	
+	flex-wrap: wrap;
+}
+.text{
+	font-size: 25px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding: 50px 50px 50px 50px;
+	flex-wrap: wrap;
+	margin-left: auto;
+    margin-right: auto;
+
+
+}
+.text_img{
+	width: 610px;
+	height: 300px;
+	z-index: 10;
+}
+.image img {
+	width: 500px;
+	height: 300px;
+	z-index: 0;
+}
+.coment {
+	padding: 25px 25px 25px 25px;
+		border-bottom:  6px solid #008080;
+}
+.contact {
+	padding: 50px 50px 50px 50px;
+	width: 100%;
+	
+	background-color: #696969;
+}
+.contact_header {
+	text-align: center;
+	
+
+
+}
+.contact_header span {
+
+	padding-top: 25px;
+	font-family: 'New Tegomin', serif;
+	font-size: 55px;
+
+
+}
+.contact_header p {
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+	vertical-align: middle;
+
+}
+.contact form{
+	flex-direction: wrap;
+	box-sizing: border-box;
+	justify-content: space-between;
+	margin-left: 345px;
+	margin-top: 25px;
+}
+.form-group input{
+	margin-top: 10px;
+	width: 500px;
+	height: 55px;
+}
+.form-group label {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+}
+form button {
+	width: 154px;
+	height: 38px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+	background-color: #5F9EA0 ;
+}
+form button:hover {
+	background-color: #4682B4;
+}
+.coment_img {
+	margin-top: 30px;
+	margin-left: 90px;
+	width: 100px;
+	height: 100px;
+	 border-radius: 100px; 
+	     border: 3px solid  #4682B4 ; 
+    box-shadow: 0 0 7px #666; 
+}
+
+
+.coment{
+	background-color: #E0FFFF;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+.coment div {
+	margin-left: auto;
+    margin-right: auto;
+
+}
+.site {
+	width: 100%;
+	background-color: #5F9EA0 ;
+	padding: 30px 30px 30px 30px;
+	text-align: center;
+	border-bottom:  6px solid #008080;
+}
+.site h2{
+	font-family: 'Yanone Kaffeesatz', serif;
+	font-size: 45px; 
+
+	
+}
+.pre_ta {
+flex-wrap: wrap;
+padding: 0 75px 0 75px;	
+}
+.card_pre {
+	width: 290px;
+	height: 300px;
+	border: solid;
+	border-width: 1px;
+	border-color: grey;
+	background-color: #F0F8FF;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 25px 0px 15px 10px;
+	text-align: center;
+	border-radius: 25px;
+	
+}
+.card_pre span {
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+	vertical-align: middle;
+}
+.conditions{
+	
+	height: 485px;
+	width: 400px;
+
+	padding: 50px 0px 50px 80px;
+}
+.but-demo {
+	height: 50px;
+	width: 250px;
+	background-color: #BC8F8F;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+}
+.but-demo:hover {
+	background-color: #FA8072;
+}
+.but-buy {
+	height: 50px;
+	width: 250px;
+	background-color: #8FBC8F;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+}
+.but-buy:hover {
+	background-color: #00FF7F;
+}
+
+
+.check-list{
+	margin: 50px 0 50px 0;
+}
+.check-list_text{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+}
+.new_card_mini{
+	flex-wrap: wrap;
+	padding-left: 80px;
+	padding-right: 80px;
+
+}
+
+.card_mini{
+	margin-bottom: 40px;
+	height: 50px;
+	width: 200px;
+	border: solid;
+	border-width: 1px;
+	border-color: grey;
+	background-color: #ADD8E6;
+	margin-left: 5px;
+}
+.card_mini:active{
+	background-color: #1E90FF;
+}
+.card_mini p{
+	margin-top: 18px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 18px;
+}
+.new {
+	padding: 30px 30px 30px 30px;
+	background-color: #E0FFFF;
+}
+.new h2{
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+}
+.auto_tion-top{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 15px;
+}
+.auto_tion-input{
+	margin: 10px auto;
+	width: 500px;
+	height: 400px;
+	background-color: #F0FFF0;
+	border: solid;
+	border-width: 2px;
+	border-color:#5F9EA0; 
+}
+
+.review{
+	background-color: #E0FFFF;
+	height: 500px;
+	padding-top: 20px;
+	border-bottom:  6px solid #008080;
+	width: 100%;
+	text-align: center;
+}
+
+.review span, label {
+	margin-top: 18px;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 35px;
+}
+.form-control_name {
+	width: 250px;
+	height: 25px;
+}
+.form-control_rew {
+	width:500px;
+	height: 200px;
+}
+.mb-3{
+	z-index: 999;
+}
+.revhod{
+	margin-top: 25px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 25px;
+	background-color:  #5F9EA0;
+	color: 	black;
+	border-radius: 50px;
+		z-index: 9999;
+	
+}
+.revhod:hover{
+	background-color:  #00CED1;
+	color:  #5F9EA0;
+}
