@@ -1,4 +1,4 @@
-
+﻿
 
 
 #include <stdio.h>
@@ -10,8 +10,4 @@ void world();
  *@return 0
 */
 int main()
-{
-    fprintf(stdout, "Hello, ");
-    world(); 
-    return 0;
-}
+
