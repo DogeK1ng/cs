@@ -1,0 +1,12 @@
+клонировать репозиторий - git clone "ссылка"
+создать ветку: git checkout -b <название ветки>
+отправка изменений в репозиторий: git commit -a -m "комментарий"
+добавление в ветку: git push -u origin <название>
+добавить файл: git add <название> -> git commit -m "комментарий" -> git push
+удалить файл: git rm <название>
+история изменения: git log
+сменить ветку: git checkout <название>
+
+git push https://github.com/DogeK1ng/cs.git 7530e5f:main
+
+git checkout 7530e5f

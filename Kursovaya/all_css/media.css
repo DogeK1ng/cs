@@ -1,0 +1,31 @@
+@media screen and (max-width: 1023px){
+	
+	.header{
+		display: none;
+	}
+	.Nav_Button{
+	opacity: 1;
+	position: fixed;
+	margin-left: 5px;
+	bottom: 95%;
+	top:5%;
+	z-index: 99;
+	width: 30px;
+	height: 30px;
+	color: #008080;
+	display: block;
+	}
+	.header_conteaier img {
+		opacity: 0;
+	}
+	.header_conteaier{
+		background-image: url(header2.jpg);
+		background-size: 100% 100%;	
+		border-bottom:  6px solid #008080;
+		z-index: 0;
+	}
+	.image {
+		opacity: 0.3;
+		margin-top: -150px;
+	}
+}
