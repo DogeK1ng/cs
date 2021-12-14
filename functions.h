@@ -1,4 +1,4 @@
-/**
+﻿/**
 	*@file
 	*@brief Подключаемый файл, содержит блоки общего кода
 */
@@ -9,8 +9,4 @@ int factorial(int n);
 
 void print_hello();
 
-void print_hello();void print_hello();
-void print_hello();void print_hello();
-void print_hello();void print_hello();
-void print_hello();void print_hello();
 void print_hello();void print_hello();
