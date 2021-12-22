@@ -17,6 +17,5 @@ b2335effdd3db21f869591085c26c51aa6c86128
 
 void print_hello();
 
-
 void print_hello();
 void print_hello();

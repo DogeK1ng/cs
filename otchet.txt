@@ -6,3 +6,7 @@
 удалить файл: git rm <название>
 история изменения: git log
 сменить ветку: git checkout <название>
+
+git push https://github.com/DogeK1ng/cs.git 7530e5f:main
+
+git checkout 7530e5f
